@@ -4,3 +4,13 @@ tei-teiheader {
 tei-p,tei-ab {
   display:block;
 }
+tei-reg {
+	display: none;
+}
+tei-rdg {
+	display: none;
+}
+tei-lb::before {
+	white-space: pre;
+	content: '\A';
+}
